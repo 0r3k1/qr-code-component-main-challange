@@ -1,0 +1,53 @@
+:root{
+    --primario:     #0b1832;
+    --secundario:   #8a8e9a;
+    --fondo:        #d5e1ef;
+    --fondo-blanco: #ffffff;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--fondo);
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    max-width: 35rem;
+    height: 55rem;
+    margin: auto;
+    background-color: var(--fondo-blanco);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+.card img{
+    max-width: 100%;
+    border-radius: 1.5rem;
+}
+
+.card h1{
+    font-family: arial, helvetica;
+    font-size: 2.5rem;
+
+}
+
+.card p{
+    font-family: 'Roboto Mono', monospace;
+    color: var(--secundario);
+    font-weight: bold;
+}
